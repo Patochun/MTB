@@ -1,0 +1,122 @@
+[
+    {
+        "Channel": 0,
+        "Locked": "False",
+        "Name": "A.Piano   ",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 1,
+        "Locked": "False",
+        "Name": "Pickd.Bass",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 2,
+        "Locked": "False",
+        "Name": "#Rock Gtr.",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 3,
+        "Locked": "False",
+        "Name": "Vocal-Line",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 4,
+        "Locked": "False",
+        "Name": "#Syn.Voice",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 5,
+        "Locked": "False",
+        "Name": "Barit.Sax ",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 6,
+        "Locked": "False",
+        "Name": "#Feedb.Gtr",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 7,
+        "Locked": "False",
+        "Name": "#Power Gtr",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 8,
+        "Locked": "False",
+        "Name": "#Chrs.Gtr.",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 9,
+        "Locked": "False",
+        "Name": "#Countoff ",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 10,
+        "Locked": "False",
+        "Name": "#Snare    ",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 11,
+        "Locked": "False",
+        "Name": "#St.Choir ",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 12,
+        "Locked": "False",
+        "Name": "St.Str.Gtr",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 13,
+        "Locked": "False",
+        "Name": "St.Str.Gtr",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 15,
+        "Locked": "False",
+        "Name": "#Telephone",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    }
+]

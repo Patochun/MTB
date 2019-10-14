@@ -1,0 +1,34 @@
+[
+    {
+        "Channel": 1,
+        "Locked": "False",
+        "Name": "PIANO",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 3,
+        "Locked": "True",
+        "Name": "VOICES",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 7,
+        "Locked": "True",
+        "Name": "BASS",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 9,
+        "Locked": "False",
+        "Name": "DRUMS",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    }
+]

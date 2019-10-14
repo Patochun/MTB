@@ -1,0 +1,74 @@
+[
+    {
+        "Channel": 0,
+        "Locked": "False",
+        "Name": "Violin I",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 1,
+        "Locked": "False",
+        "Name": "Violin II",
+        "Type": "GD",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 2,
+        "Locked": "False",
+        "Name": "Viola",
+        "Type": "LT",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 3,
+        "Locked": "False",
+        "Name": "Violoncello",
+        "Type": "FT",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 4,
+        "Locked": "False",
+        "Name": "Contrabass",
+        "Type": "FS",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 6,
+        "Locked": "False",
+        "Name": "Organ (R.H.)",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 7,
+        "Locked": "False",
+        "Name": "Organ (L.H.)",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 8,
+        "Locked": "False",
+        "Name": "Organ (Ped.)",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 10,
+        "Locked": "False",
+        "Name": "Violin solo",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    }
+]

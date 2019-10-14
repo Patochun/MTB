@@ -1,0 +1,66 @@
+[
+    {
+        "Channel": 0,
+        "Locked": "False",
+        "Name": "Transport",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 1,
+        "Locked": "False",
+        "Name": "Base rythm",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 2,
+        "Locked": "False",
+        "Name": "RH Melody",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 3,
+        "Locked": "False",
+        "Name": "LH Chord",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 4,
+        "Locked": "False",
+        "Name": "Acc Riff 1",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 5,
+        "Locked": "False",
+        "Name": "Brite Strings Bass",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 6,
+        "Locked": "False",
+        "Name": "Beauty",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 7,
+        "Locked": "False",
+        "Name": "Beauty      ",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    }
+]

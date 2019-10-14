@@ -1,0 +1,130 @@
+[
+    {
+        "Channel": 0,
+        "Locked": "False",
+        "Name": "Jazz Bass",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 1,
+        "Locked": "False",
+        "Name": "Piano",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 2,
+        "Locked": "False",
+        "Name": "Alto Sax 1",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 3,
+        "Locked": "False",
+        "Name": "Alto Sax 2",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 4,
+        "Locked": "False",
+        "Name": "Tenor Sax 1",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 5,
+        "Locked": "False",
+        "Name": "Tenor Sax 2",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 6,
+        "Locked": "False",
+        "Name": "Bari Sax",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 7,
+        "Locked": "False",
+        "Name": "Trumpet 1",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 8,
+        "Locked": "False",
+        "Name": "Trumpet 2",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 9,
+        "Locked": "False",
+        "Name": "Jazz Kit",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 10,
+        "Locked": "False",
+        "Name": "Trumpet 3",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 11,
+        "Locked": "False",
+        "Name": "Trumpet 4",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 12,
+        "Locked": "False",
+        "Name": "Trombone 1",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 13,
+        "Locked": "False",
+        "Name": "Trombone 2",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 14,
+        "Locked": "False",
+        "Name": "Trombone 3",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 15,
+        "Locked": "False",
+        "Name": "Trombone 4",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    }
+]

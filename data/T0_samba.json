@@ -1,0 +1,58 @@
+[
+    {
+        "Channel": 1,
+        "Locked": "False",
+        "Name": "",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 2,
+        "Locked": "False",
+        "Name": "",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 3,
+        "Locked": "False",
+        "Name": "",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 4,
+        "Locked": "False",
+        "Name": "",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 5,
+        "Locked": "False",
+        "Name": "",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 6,
+        "Locked": "False",
+        "Name": "",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    },
+    {
+        "Channel": 9,
+        "Locked": "False",
+        "Name": "",
+        "Type": "BG",
+        "Template": "",
+        "Animate": "True"
+    }
+]

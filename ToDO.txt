@@ -1,0 +1,77 @@
+********************************************************************
+Midi To Blend Project
+Blender version = 2.8
+Author = Patrick Mauger
+Web Site = docouatzat.com
+Mail = docouatzat@gmail.com
+
+Licence used = Creative Commons CC BY
+Check licence here : https://creativecommons.org
+
+********************************************************************
+
+ToDO list :
+
+-   Correct bpy.ops for
+    - add_mball(collect, name_of_mball, material, x, y, z, emp_par):
+    - add_pb(collect, name_of_pb, material, x, y, z, emp_par):
+    - Channel_is_FT():
+    - Channel_is_FS():
+
+-   Continue on add_VBO to replace cylinder, uvsphere, icosphere
+
+-   For all object creation, give size
+-   Need synhro to FS vizualisation between Ball impact and Target scale change
+-   Clean scene before create anything
+    -   Remove default cube is the minimum
+    -   Clean all orphans is the maximum
+    -   Place Blender into Object_Mode
+-   Manage MIDI file type 2 (done for 0 and 1)
+    -   type 0 = Mono track
+        -       note_on and note_off have an additionnal parameter for the channel
+        -       This channel mean track
+    -   type 1 = Multitrack Synchronous
+    -   type 2 = Multitrack Asynchronous
+-   Animate a bones set
+-   Manage somes specifics properties for each type of visualization. Class overheading ?
+    -   Exemple : 
+        -   for BG, we must know, the placement, orientation, etc.
+        -   same for GRID
+        -       same for light, color, size ?
+-   Improve the code for create cube, empy, grid, and so on. Check the remark in code
+    -   Try to not use b_ops    
+-   Imagine other visualizations like :
+    -   An object like a box who reject an other object via particule at each note
+        -   Another fountain with one big particule emitted for each note
+        -   This particule can have propertie changing accordingly with note
+            -   ie : color, or text or anything else
+    -   Shape modifier
+    -   see after for other ideas
+-   Transform this python script to addon
+    -   With GUI for
+        - selecting MIDI file
+        - choose visualization and parameters by track
+        - save all configuration (so load also)
+-   Made a second video using the script
+    -   Maybe with cycle
+    -   Using all objects created
+    -   With other skill in Blender such as, camera move, camera change, DOF, Light color and placement,atmosphere, smoke ?
+    -   With proper MIDI file composed for this test
+
+
+Ideas :
+
+Apply variation by music to any parameters of any object with use of driver
+For example : 
+-    modifier variation
+-    physic, like wind strenght
+-    color of anything
+-    anything on anything and why note on multiple things simultanously
+
+Use set of variables preset
+
+Type MV - variables
+
+NOTE_x   mean note of track x
+VELO_x   mean velocity of track x
+BEAT_x   mean beat mesure of track x (why not ?)

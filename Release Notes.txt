@@ -1,0 +1,133 @@
+********************************************************************
+Midi To Blend Project
+Blender version = 2.8
+Author = Patrick Mauger
+Web Site = docouatzat.com
+Mail = docouatzat@gmail.com
+
+Licence used = Creative Commons CC BY
+Check licence here : https://creativecommons.org
+
+********************************************************************
+
+Release notes :
+
+
+Version 1.011
+-------------
+Manage MIDI file without channel information
+    Parameter => use_channel, False if channel = track, True if channel is used
+Fix SW - still not working
+Create new VBO, TP - Texture Paint
+    Paint a wall following notes appears
+Simplify complex code to be under max-complexity = 15 (flake8)
+VBO LT improved
+Animate pitchbend wheel and aftertouch
+    with custom attributes values on model/principal object for the channel => self.note_object[128]
+Animate control_change
+    pan = > custom attributes values => self.note_object[128]
+    
+
+
+Version 1.010
+-------------
+New visual Blender object (VBO) : SW - Splash Wall
+    Launch ball of paint splashing on the Wall
+    Color of ball indicate the note
+    Location of impact indicate the octave
+    Currently blocked by bug on metaballs. Ticket created in bug tracker T69578
+Huge improvement for Tempo MAP
+    Test with complex music (albinoni) with massives tempo changes (703)
+Huge code cleaning - Using flake8 and blender recommandations
+Remove all bpy.ops and go to low level when it's possible
+
+
+Version 1.009
+-------------
+New visual Blender object (VBO) : FS - Foutain Solo
+    Unique Fountain for all notes of channel
+    Emitting only one BIG particule by note
+        Note distinguished by the color of the object or other caracteristics
+Use model object parameters for fountain
+
+
+Version 1.008
+-------------
+Many changes to respect standard MIDI file 0 & 1 (SMF0 & SMF1)
+    SMF0 is a particular SMF1 with only one track (track 0)
+    SMF1 contain tracks (variable number) and each track contain channels
+        The relation between channel and track is n to n
+    Replace concept of track by channel everywhere
+Better velocity Fountain react
+    velocity is used to calculate the vertical speed of particles
+Objects BG, FT, PB are now created via duplicate from model
+    This is better in term of ram and speed
+Initial position improved for BG, LT, FT
+Using vector for animate object location instead of fixed values
+Setting custom properties for velocity, aftertouch, pitchbend (using later)
+
+
+Version 1.007
+-------------
+Manage JSON file with the same name as MIDI file. This file contain configuration for conversion from MIDI to Blender
+Improve fountain animation :
+    Use multiple particles settings with starting and ending for each emitter instead of using keyframes. Very lighter.
+Use random color for all object model
+
+
+Version 1.006
+-------------
+
+Visualization type light = LT - Design for multi note
+Visualization type fountain = FT - Particle emitting
+Support for MIDI file type 0 added
+Empty parent placing improved
+Use of keyframe_insert(data_path='xxxxxxxx', frame=frame) instead of setting frame and modifier separately
+
+
+Version 1.005
+-------------
+
+Visualization type light = LT - Design for mono note
+Major cleaning and namming
+Code PEP8 conformation (Except some code E501 : line too long)
+
+
+Version 1.004
+-------------
+
+Visualization type grid = GD
+Using collection with more accuracy
+Add parent to each track
+Have MIDI file for testing. Type 0, 1 and 2
+
+
+Version 1.003
+-------------
+
+First class implementation
+Use the framerate choosing in Blender GUI
+Load file.mp3 if exist in Video Sequencer editor
+BG grow from the ground now
+Code cleaning - Use of PEP8 naming convention
+Code PEP8 conformation (Except some code E501 : line too long)
+
+
+Version 1.002
+-------------
+
+Use of Visual Studio Code (VSC) instead of included blender text editor
+Use of Blender Development in VS Code created by Jacques Lucke (version [0.0.12] - 2019-04-24)
+Code redesign (a little) to be able to run in this environnement
+Code cleaning
+
+
+Version 1.001
+-------------
+
+Generate simple cubes animation from midifile
+From on midifile in input animate sets of cubes, one cube by note
+Manage note animation following the midi event note_on/note_off and accordingly to the tempo
+Master tempo for type 1 midifile
+Limitation :
+    Only type 1 midifile is supported
