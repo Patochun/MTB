@@ -12,4 +12,16 @@ Note : this script use the MIDO Python module
 
 This script work with some input files and these lines allow you to choose them :
 
+# path and name of midi file - temporary => replaced when this become an add-on
+# path = "C:\\tmp\\MTB\\data"
+path = "D:\\OneDrive\\Blog\\MTB\\data"
+filename = "Melody 01"
+# If use_channel = True then manage separate channel as usual, wherever the tracks where the channel event are
+# If use_channel = False then MIDI File don't use channel info and we use 1 track = 1 channel
+use_channel = False
+filemid = path + "\\" + filename + ".mid"
+fileaudio = path + "\\" + filename + ".mp3"
+filejson = path + "\\" + filename + ".json"
+filelog = path + "\\" + filename + ".log"
+
 
