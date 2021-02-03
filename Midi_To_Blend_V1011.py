@@ -1731,7 +1731,7 @@ for current_track, track in enumerate(mid.tracks):
         elif msg.type == 'aftertouch':
             ChannelList[current_channel].add_aftertouch_evt(current_frame, msg.value)
         elif msg.type == 'control_change':
-            print("ctrlchg " + str(current_frame) + " " + str(msg.control) + " " + str(msg.value))
+            # print("ctrlchg " + str(current_frame) + " " + str(msg.control) + " " + str(msg.value))
             ChannelList[current_channel].add_ctrlchange_evt(current_frame, msg.control, msg.value)
         else:
             print(msg.type)
