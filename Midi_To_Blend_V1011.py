@@ -11,7 +11,8 @@ import json
 from bpy_extras.node_shader_utils import PrincipledBSDFWrapper
 
 # How to install a new python module in the blender (here mido) :
-# http://www.codeplastic.com/2019/03/12/how-to-install-python-modules-in-blender/
+# Blender 2.8  => http://www.codeplastic.com/2019/03/12/how-to-install-python-modules-in-blender/
+# Blender 2.9x => https://b3d.interplanety.org/en/how-to-install-required-packages-to-the-blender-python-with-pip/
 # Mido is a library for working with MIDI messages and ports.
 # It’s designed to be as straight forward and Pythonic as possible:
 # https://mido.readthedocs.io/en/latest/installing.html
