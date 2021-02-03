@@ -1511,7 +1511,7 @@ new_collec = create_collection(col_name, b_con.scene.collection, delete=False)
 
 # path and name of midi file - temporary => replaced when this become an add-on
 # path = "C:\\tmp\\MTB\\data"
-path = "D:\\OneDrive\\Blog\\MTB\\data"
+path = "D:\\OneDrive\\Blog\\MTB extras\\data"
 filename = "Melody 01"
 # If use_channel = True then manage separate channel as usual, wherever the tracks where the channel event are
 # If use_channel = False then MIDI File don't use channel info and we use 1 track = 1 channel
