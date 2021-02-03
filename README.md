@@ -14,12 +14,12 @@ This script work with some input files and these lines allow you to choose them 
 
 path and name of midi file - temporary => replaced when this become an add-on
 
-path = "C:\\tmp\\MTB\\data"
-path = "D:\\OneDrive\\Blog\\MTB\\data"
-filename = "Melody 01"
+	path = "C:\\tmp\\MTB\\data"
+	path = "D:\\OneDrive\\Blog\\MTB\\data"
+	filename = "Melody 01"
 
-filemid = path + "\\" + filename + ".mid"
-fileaudio = path + "\\" + filename + ".mp3"
-filejson = path + "\\" + filename + ".json"
-filelog = path + "\\" + filename + ".log"
+	filemid = path + "\\" + filename + ".mid"
+	fileaudio = path + "\\" + filename + ".mp3"
+	filejson = path + "\\" + filename + ".json"
+	filelog = path + "\\" + filename + ".log"
 
