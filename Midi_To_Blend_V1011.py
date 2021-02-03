@@ -31,8 +31,7 @@ b_ops = bpy.ops
 # Web Site = docouatzat.com
 # Mail = docouatzat@gmail.com
 #
-# Licence used = Creative Commons CC BY
-# Check licence here : https://creativecommons.org
+# Licence used = GNU General Public License V3
 #
 # Generate 3D objects animated from midifile
 # ********************************************************************
