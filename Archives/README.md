@@ -1,5 +1,7 @@
 # MTB
  Midi To Blender
+ This is old version - Keep it here for archives
+ See M2B repositorie for the new one
 
 Here the code MTB to create some animations from MIDI file as input.
 
